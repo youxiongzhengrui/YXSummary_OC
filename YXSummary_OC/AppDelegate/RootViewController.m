@@ -27,32 +27,6 @@
 }
 
 
-- (void)test1 {
-    
-}
-
-- (void)test2 {
-    
-}
-
-- (void)test3 {
-    
-}
-
-- (void)test4 {
-    
-}
-
-- (void)test11 {
-    
-}
-
-
-- (void)test12 {
-    
-}
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
