@@ -11,6 +11,7 @@
 		165D5A0A1EB1D19F00AAEF4A /* YXSummary_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 165D5A091EB1D19F00AAEF4A /* YXSummary_OCTests.m */; };
 		165D5A151EB1D19F00AAEF4A /* YXSummary_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 165D5A141EB1D19F00AAEF4A /* YXSummary_OCUITests.m */; };
 		168EF98D1F2ED61D0011C6B6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168EF98C1F2ED61D0011C6B6 /* RootViewController.m */; };
+		168EF9901F2EFAC90011C6B6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168EF98F1F2EFAC90011C6B6 /* TestViewController.m */; };
 		16E7D78F1EC4422000EF0E76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E7D7821EC4422000EF0E76 /* AppDelegate.m */; };
 		16E7D7901EC4422000EF0E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16E7D7861EC4422000EF0E76 /* Assets.xcassets */; };
 		16E7D7911EC4422000EF0E76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E7D7881EC4422000EF0E76 /* LaunchScreen.storyboard */; };
@@ -50,6 +51,8 @@
 		165D5A161EB1D19F00AAEF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		168EF98B1F2ED61D0011C6B6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		168EF98C1F2ED61D0011C6B6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		168EF98E1F2EFAC90011C6B6 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		168EF98F1F2EFAC90011C6B6 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		16E7D7811EC4422000EF0E76 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16E7D7821EC4422000EF0E76 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		16E7D7861EC4422000EF0E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 				16E7D7821EC4422000EF0E76 /* AppDelegate.m */,
 				168EF98B1F2ED61D0011C6B6 /* RootViewController.h */,
 				168EF98C1F2ED61D0011C6B6 /* RootViewController.m */,
+				168EF98E1F2EFAC90011C6B6 /* TestViewController.h */,
+				168EF98F1F2EFAC90011C6B6 /* TestViewController.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -407,6 +412,7 @@
 				16E7D78F1EC4422000EF0E76 /* AppDelegate.m in Sources */,
 				168EF98D1F2ED61D0011C6B6 /* RootViewController.m in Sources */,
 				165D59F71EB1D19F00AAEF4A /* ViewController.m in Sources */,
+				168EF9901F2EFAC90011C6B6 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
