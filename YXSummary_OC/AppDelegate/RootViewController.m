@@ -26,9 +26,6 @@
     
 }
 
-- (void)test1 {
-    
-}
 
 
 - (void)didReceiveMemoryWarning {
