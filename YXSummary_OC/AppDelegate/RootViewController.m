@@ -31,6 +31,10 @@
     
 }
 
+- (void)test2 {
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
