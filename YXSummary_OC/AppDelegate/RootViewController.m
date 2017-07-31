@@ -39,7 +39,9 @@
     
 }
 
-
+- (void)test4 {
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
