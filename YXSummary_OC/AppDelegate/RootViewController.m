@@ -31,6 +31,11 @@
 }
 
     
+- (void)test4 {
+    
+}
+
+    
     
 
 - (void)test2 {
