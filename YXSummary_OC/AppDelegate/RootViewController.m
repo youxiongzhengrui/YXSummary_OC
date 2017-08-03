@@ -34,6 +34,10 @@
 - (void)test4 {
     
 }
+    
+- (void)test6 {
+    
+}
 
     
     
