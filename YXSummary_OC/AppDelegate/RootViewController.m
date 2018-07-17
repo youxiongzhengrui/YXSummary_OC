@@ -16,42 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-//
-//    
-    
-}
-
-- (void)test {
-    
-}
-    
-- (void)test3 {
-    
-}
-
-    
-- (void)test4 {
-    
-}
-    
-- (void)test6 {
-    
-}
-
-    
-    
-
-- (void)test2 {
-    
-}
-
-- (void)test11 {
-    
-}
-
-- (void)test12 {
-    
+     
 }
 
 - (void)didReceiveMemoryWarning {
