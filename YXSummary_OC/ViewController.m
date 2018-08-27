@@ -32,7 +32,9 @@
     
 }
 
-
+- (void)test22 {
+    
+}
 
 
 - (void)didReceiveMemoryWarning {
