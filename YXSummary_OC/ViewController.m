@@ -33,6 +33,8 @@
 }
 
 - (void)test31 {
+}
+- (void)test22 {
     
 }
 
