@@ -21,13 +21,6 @@
 }
 
 - (void)test10 {
-}
-- (void)test1 {
-    
-}
-
-
-- (void)test2 {
     
 }
 
