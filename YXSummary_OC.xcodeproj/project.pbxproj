@@ -18,6 +18,7 @@
 		16E7D7921EC4422000EF0E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E7D78A1EC4422000EF0E76 /* Main.storyboard */; };
 		16E7D7931EC4422000EF0E76 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16E7D78C1EC4422000EF0E76 /* Info.plist */; };
 		16E7D7941EC4422000EF0E76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E7D78D1EC4422000EF0E76 /* main.m */; };
+		1896C46621340228006FC80C /* AVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1896C46521340228006FC80C /* AVC.m */; };
 		624457B006F6EED35F17861B /* libPods-YXSummary_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6942F2B2693B142DB663E03A /* libPods-YXSummary_OC.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,8 @@
 		16E7D78B1EC4422000EF0E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16E7D78C1EC4422000EF0E76 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16E7D78D1EC4422000EF0E76 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1896C46421340228006FC80C /* AVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVC.h; sourceTree = "<group>"; };
+		1896C46521340228006FC80C /* AVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVC.m; sourceTree = "<group>"; };
 		6942F2B2693B142DB663E03A /* libPods-YXSummary_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXSummary_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD7D7F9D318315D8AC40947 /* Pods-YXSummary_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXSummary_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXSummary_OC/Pods-YXSummary_OC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,11 +118,9 @@
 		165D59EE1EB1D19F00AAEF4A /* YXSummary_OC */ = {
 			isa = PBXGroup;
 			children = (
+				1896C46321340213006FC80C /* Helper */,
 				16E7D7801EC4422000EF0E76 /* AppDelegate */,
-				16E7D7831EC4422000EF0E76 /* Expand(拓展) */,
-				16E7D7841EC4422000EF0E76 /* Helper(助手) */,
 				16E7D7851EC4422000EF0E76 /* Resource(资源) */,
-				16E7D78E1EC4422000EF0E76 /* Vender(第三方) */,
 				165D59F51EB1D19F00AAEF4A /* ViewController.h */,
 				165D59F61EB1D19F00AAEF4A /* ViewController.m */,
 				165D59EF1EB1D19F00AAEF4A /* Supporting Files */,
@@ -165,20 +166,6 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		16E7D7831EC4422000EF0E76 /* Expand(拓展) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Expand(拓展)";
-			sourceTree = "<group>";
-		};
-		16E7D7841EC4422000EF0E76 /* Helper(助手) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Helper(助手)";
-			sourceTree = "<group>";
-		};
 		16E7D7851EC4422000EF0E76 /* Resource(资源) */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,11 +186,13 @@
 			path = SuppoutFile;
 			sourceTree = "<group>";
 		};
-		16E7D78E1EC4422000EF0E76 /* Vender(第三方) */ = {
+		1896C46321340213006FC80C /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				1896C46421340228006FC80C /* AVC.h */,
+				1896C46521340228006FC80C /* AVC.m */,
 			);
-			path = "Vender(第三方)";
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		D44EDA0986C41CE3228202AD /* Frameworks */ = {
@@ -408,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1896C46621340228006FC80C /* AVC.m in Sources */,
 				16E7D7941EC4422000EF0E76 /* main.m in Sources */,
 				16E7D78F1EC4422000EF0E76 /* AppDelegate.m in Sources */,
 				168EF98D1F2ED61D0011C6B6 /* RootViewController.m in Sources */,
