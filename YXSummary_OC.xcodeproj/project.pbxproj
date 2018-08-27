@@ -118,12 +118,9 @@
 		165D59EE1EB1D19F00AAEF4A /* YXSummary_OC */ = {
 			isa = PBXGroup;
 			children = (
-				18E048B31F5B34BC00A8520F /* Expand */,
-				18E048B41F5B34BC00A8520F /* Helper */,
 				18E048B51F5B34BC00A8520F /* Networking */,
 				16E7D7801EC4422000EF0E76 /* AppDelegate */,
 				16E7D7851EC4422000EF0E76 /* Resource(资源) */,
-				16E7D78E1EC4422000EF0E76 /* Vender(第三方) */,
 				165D59F51EB1D19F00AAEF4A /* ViewController.h */,
 				165D59F61EB1D19F00AAEF4A /* ViewController.m */,
 				165D59EF1EB1D19F00AAEF4A /* Supporting Files */,
@@ -187,27 +184,6 @@
 				16E7D78D1EC4422000EF0E76 /* main.m */,
 			);
 			path = SuppoutFile;
-			sourceTree = "<group>";
-		};
-		16E7D78E1EC4422000EF0E76 /* Vender(第三方) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Vender(第三方)";
-			sourceTree = "<group>";
-		};
-		18E048B31F5B34BC00A8520F /* Expand */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Expand;
-			sourceTree = "<group>";
-		};
-		18E048B41F5B34BC00A8520F /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helper;
 			sourceTree = "<group>";
 		};
 		18E048B51F5B34BC00A8520F /* Networking */ = {
