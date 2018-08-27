@@ -20,6 +20,9 @@
     
 }
 
+- (void)test10 {
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
