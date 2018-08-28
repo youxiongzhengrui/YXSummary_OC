@@ -20,36 +20,7 @@
     
 }
 
-- (void)test088 {
-    
-}
 
-
-- (void)test10 {
-    
-}
-
-- (void)test20 {
-    
-}
-
-- (void)test21 {
-    
-}
-
-- (void)test31 {
-}
-- (void)test22 {
-    
-}
-
-- (void)test13 {
-    
-}
-
-- (void)test14 {
-    
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
